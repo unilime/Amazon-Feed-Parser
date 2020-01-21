@@ -1,0 +1,22 @@
+{
+    "name": "vladerlord/amazon-feed-parser",
+    "authors": [
+        {
+            "name": "vladerlord",
+            "email": "vladerlord007@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    }
+}
